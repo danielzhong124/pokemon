@@ -1252,6 +1252,62 @@ app.get('/pokemon/pyukumuku', function(req, res){
   "gmax":null});
 })
 
+app.get('/pokemon/trubbish', function(req, res){
+  res.json({"name":"trubbish",
+  "types":["poison"],
+  "img":"https://www.serebii.net/swordshield/pokemon/568.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/garbodor', function(req, res){
+  res.json({"name":"garbodor",
+  "types":["poison"],
+  "img":"https://www.serebii.net/swordshield/pokemon/569.png",
+  "img-fem":null,
+  "gmax":"https://www.serebii.net/swordshield/pokemon/569-gi.png"});
+})
+
+app.get('/pokemon/sizzlipede', function(req, res){
+  res.json({"name":"sizzlipede",
+  "types":["bug", "fire"],
+  "img":"https://www.serebii.net/swordshield/pokemon/850.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/centiskorch', function(req, res){
+  res.json({"name":"centiskorch",
+  "types":["bug", "fire"],
+  "img":"https://www.serebii.net/swordshield/pokemon/851.png",
+  "img-fem":null,
+  "gmax":"https://www.serebii.net/swordshield/pokemon/851-gi.png"});
+})
+
+app.get('/pokemon/rolycoly', function(req, res){
+  res.json({"name":"rolycoly",
+  "types":["rock"],
+  "img":"https://www.serebii.net/swordshield/pokemon/837.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/carkol', function(req, res){
+  res.json({"name":"carkol",
+  "types":["rock", "fire"],
+  "img":"https://www.serebii.net/swordshield/pokemon/838.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/coalossal', function(req, res){
+  res.json({"name":"coalossal",
+  "types":["rock", "fire"],
+  "img":"https://www.serebii.net/swordshield/pokemon/839.png",
+  "img-fem":null,
+  "gmax":"https://www.serebii.net/swordshield/pokemon/839-gi.png"});
+})
+
 app.use(express.static("public"));
 const PORT = process.env.PORT || 8000;
 app.listen(PORT);
