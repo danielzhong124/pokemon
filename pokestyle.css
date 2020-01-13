@@ -33,7 +33,7 @@ td{
   border-radius: 3px;
 }
 
-header{
+h1{
   width: 100%;
   background: linear-gradient(to bottom right, darkcyan 50%, darkmagenta 50%);
   color: yellow;
