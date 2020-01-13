@@ -2,8 +2,8 @@
 
 body{
   font-family: 'Roboto Mono', monospace;
-  background-color: white;
-  color: black;
+  background-color: dimgray;
+  color: white;
 }
 
 td{
@@ -12,10 +12,9 @@ td{
   text-align: center;
   padding: 7px;
   background-color: lightcyan;
-  color: magenta;
+  color: black;
   font-size: 9pt;
   text-transform: uppercase;
-  border: 1px solid black;
 }
 
 .pokemon img{
