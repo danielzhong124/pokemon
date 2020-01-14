@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
+
+body{
+  font-family: 'Roboto Mono', monospace;
+  background-color: dimgray;
+  color: white;
+}
+
+td{
+  width: 150px;
+  height: 100%;
+  text-align: center;
+  padding: 7px;
+  background-color: lightcyan;
+  color: black;
+  font-size: 9pt;
+  text-transform: uppercase;
+}
+
+.pokemon img{
+  width: 96px;
+  height: 96px;
+}
+
+.item img{
+  width: 30px;
+  height: 30px;
+}
+
+.pokemon span, .move span{
+  padding: 3px;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+h1{
+  width: 100%;
+  background: linear-gradient(to bottom right, darkcyan 50%, darkmagenta 50%);
+  color: yellow;
+  text-align: center;
+}
+
+.normal{
+  background-color: lightgray;
+  color: black;
+}
+
+.fighting{
+  background-color: firebrick;
+  color: white;
+}
+
+.flying{
+  background-color: lightskyblue;
+  color: black;
+}
+
+.poison{
+  background-color: darkorchid;
+  color: white;
+}
+
+.ground{
+  background-color: chocolate;
+  color: black;
+}
+
+.rock{
+  background-color: saddlebrown;
+  color: white;
+}
+
+.bug{
+  background-color: olivedrab;
+  color: white;
+}
+
+.ghost{
+  background-color: rebeccapurple;
+  color: white;
+}
+
+.steel{
+  background-color: lightsteelblue;
+  color: black;
+}
+
+.fire{
+  background-color: orangered;
+  color: white;
+}
+
+.water{
+  background-color: dodgerblue;
+  color: white;
+}
+
+.grass{
+  background-color: lawngreen;
+  color: black;
+}
+
+.electric {
+  background-color: yellow;
+  color: black;
+}
+
+.psychic{
+  background-color: deeppink;
+  color: white;
+}
+
+.ice{
+  background-color: powderblue;
+  color: black;
+}
+
+.dragon {
+  background: linear-gradient(to bottom right, crimson 50%, royalblue 50%);
+  background-color: royalblue;
+  color: white;
+}
+
+.dark {
+  background-color: darkslategray;
+  color: white;
+}
+
+.fairy {
+  background-color: lightpink;
+  color: black;
+}
+
+
+.hidden{
+  display: none;
+}
