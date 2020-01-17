@@ -11,7 +11,7 @@ nav {
   width: 160px;
   position: fixed;
   z-index: 1;
-  top: 100px;
+  top: 200px;
   right: 5px;
   background-color: magenta;
   overflow-x: hidden;
