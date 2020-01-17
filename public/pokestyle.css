@@ -2,8 +2,18 @@
 
 body{
   font-family: 'Roboto Mono', monospace;
-  background-color: dimgray;
-  color: white;
+  background-color: white;
+  color: black;
+}
+
+header img{
+  width: 50%;
+}
+
+nav{
+  display: flex;
+  width: 20%;
+  justify-content: flex-end;
 }
 
 td{
@@ -15,6 +25,7 @@ td{
   color: black;
   font-size: 9pt;
   text-transform: uppercase;
+  border: 1px solid black;
 }
 
 .pokemon img{
