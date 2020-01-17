@@ -6,14 +6,22 @@ body{
   color: black;
 }
 
-header img{
-  width: 50%;
+nav {
+  display: block;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 100px;
+  right: 5px;
+  background-color: magenta;
+  overflow-x: hidden;
+  text-align: center;
+  font-size: 24px;
+  color: black;
 }
 
-nav{
-  display: flex;
-  width: 20%;
-  justify-content: flex-end;
+header img{
+  width: 50%;
 }
 
 td{
@@ -45,6 +53,7 @@ td{
 }
 
 h1{
+  display: block;
   width: 100%;
   background: linear-gradient(to bottom right, darkcyan 50%, darkmagenta 50%);
   color: yellow;
