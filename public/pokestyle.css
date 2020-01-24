@@ -7,21 +7,15 @@ body{
 }
 
 nav {
-  display: block;
+  display: inline;
   width: 160px;
-  position: fixed;
-  z-index: 1;
-  top: 200px;
-  right: 5px;
+  height: 100%;
+  position: relative;
   background-color: magenta;
-  overflow-x: hidden;
+  overflow: auto;
   text-align: center;
   font-size: 24px;
   color: black;
-}
-
-header img{
-  width: 50%;
 }
 
 td{

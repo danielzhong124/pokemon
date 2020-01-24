@@ -1308,6 +1308,54 @@ app.get('/pokemon/coalossal', function(req, res){
   "gmax":"https://www.serebii.net/swordshield/pokemon/839-gi.png"});
 })
 
+app.get('/pokemon/diglett', function(req, res){
+  res.json({"name":"diglett",
+  "types":["ground"],
+  "img":"https://www.serebii.net/swordshield/pokemon/050.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/diglett/alola', function(req, res){
+  res.json({"name":"diglett",
+  "types":["ground", "steel"],
+  "img":"https://www.serebii.net/swordshield/pokemon/050-a.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/dugtrio', function(req, res){
+  res.json({"name":"dugtrio",
+  "types":["ground"],
+  "img":"https://www.serebii.net/swordshield/pokemon/051.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/dugtrio/alola', function(req, res){
+  res.json({"name":"dugtrio",
+  "types":["ground", "steel"],
+  "img":"https://www.serebii.net/swordshield/pokemon/051-a.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/drilbur', function(req, res){
+  res.json({"name":"drilbur",
+  "types":["ground"],
+  "img":"https://www.serebii.net/swordshield/pokemon/529.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/excadrill', function(req, res){
+  res.json({"name":"excadrill",
+  "types":["ground", "steel"],
+  "img":"https://www.serebii.net/swordshield/pokemon/530.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
 app.use(express.static("public"));
 const PORT = process.env.PORT || 8000;
 app.listen(PORT);
