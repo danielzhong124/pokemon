@@ -6,16 +6,30 @@ body{
   color: black;
 }
 
-nav {
-  display: inline;
-  width: 160px;
-  height: 100%;
-  position: relative;
-  background-color: magenta;
-  overflow: auto;
+h1{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: linear-gradient(to bottom right, darkcyan 50%, darkmagenta 50%);
+  color: yellow;
   text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: black;
   font-size: 24px;
-  color: black;
+  color: white;
+}
+
+nav a:link {
+  color: cyan;
+}
+nav a:visited{
+  color: magenta;
 }
 
 td{
@@ -44,14 +58,6 @@ td{
   padding: 3px;
   margin: 5px;
   border-radius: 3px;
-}
-
-h1{
-  display: block;
-  width: 100%;
-  background: linear-gradient(to bottom right, darkcyan 50%, darkmagenta 50%);
-  color: yellow;
-  text-align: center;
 }
 
 .normal{

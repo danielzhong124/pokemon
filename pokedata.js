@@ -1356,6 +1356,118 @@ app.get('/pokemon/excadrill', function(req, res){
   "gmax":null});
 })
 
+app.get('/pokemon/roggenrola', function(req, res){
+  res.json({"name":"roggenrola",
+  "types":["rock"],
+  "img":"https://www.serebii.net/swordshield/pokemon/524.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/boldore', function(req, res){
+  res.json({"name":"boldore",
+  "types":["rock"],
+  "img":"https://www.serebii.net/swordshield/pokemon/525.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/gigalith', function(req, res){
+  res.json({"name":"gigalith",
+  "types":["rock"],
+  "img":"https://www.serebii.net/swordshield/pokemon/526.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/timburr', function(req, res){
+  res.json({"name":"timburr",
+  "types":["fighting"],
+  "img":"https://www.serebii.net/swordshield/pokemon/532.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/gurdurr', function(req, res){
+  res.json({"name":"gurdurr",
+  "types":["fighting"],
+  "img":"https://www.serebii.net/swordshield/pokemon/533.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/conkeldurr', function(req, res){
+  res.json({"name":"conkeldurr",
+  "types":["fighting"],
+  "img":"https://www.serebii.net/swordshield/pokemon/534.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/woobat', function(req, res){
+  res.json({"name":"woobat",
+  "types":["psychic", "flying"],
+  "img":"https://www.serebii.net/swordshield/pokemon/527.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/swoobat', function(req, res){
+  res.json({"name":"swoobat",
+  "types":["psychic", "flying"],
+  "img":"https://www.serebii.net/swordshield/pokemon/528.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/noibat', function(req, res){
+  res.json({"name":"noibat",
+  "types":["flying", "dragon"],
+  "img":"https://www.serebii.net/swordshield/pokemon/714.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/noivern', function(req, res){
+  res.json({"name":"noivern",
+  "types":["flying", "dragon"],
+  "img":"https://www.serebii.net/swordshield/pokemon/715.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/onix', function(req, res){
+  res.json({"name":"onix",
+  "types":["rock", "ground"],
+  "img":"https://www.serebii.net/swordshield/pokemon/095.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/steelix', function(req, res){
+  res.json({"name":"steelix",
+  "types":["steel", "ground"],
+  "img":"https://www.serebii.net/swordshield/pokemon/208.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/arrokuda', function(req, res){
+  res.json({"name":"arrokuda",
+  "types":["water"],
+  "img":"https://www.serebii.net/swordshield/pokemon/846.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/barraskewda', function(req, res){
+  res.json({"name":"barraskewda",
+  "types":["water"],
+  "img":"https://www.serebii.net/swordshield/pokemon/847.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
 app.use(express.static("public"));
 const PORT = process.env.PORT || 8000;
 app.listen(PORT);
