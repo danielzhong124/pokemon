@@ -1566,6 +1566,6 @@ app.get('/pokemon/ferrothorn', function(req, res){
   "gmax":null});
 })
 
-app.use(express.static("public"));
+app.use(express.static("."));
 const PORT = process.env.PORT || 8000;
 app.listen(PORT);
