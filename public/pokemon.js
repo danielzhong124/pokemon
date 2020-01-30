@@ -46,8 +46,15 @@
   }
 
   function toggleTeam(){
-        id("first").classList.toggle("hidden");
-        id("rematch").classList.toggle("hidden");
+    let teams = qsa("section div");
+    for (let i = 0; i < teams.length; i++) {
+      if(teams[i].id===this.value){
+        teams[i].classList.remove("hidden");
+      }
+      else{
+        teams[i].classList.add("hidden");
+      }
+    }
   }
 
   function checkStatus(response) {
