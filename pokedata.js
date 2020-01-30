@@ -1544,7 +1544,7 @@ app.get('/pokemon/cutiefly', function(req, res){
 
 app.get('/pokemon/ribombee', function(req, res){
   res.json({"name":"ribombee",
-  "types":["bug, ""fairy"],
+  "types":["bug", "fairy"],
   "img":"https://www.serebii.net/swordshield/pokemon/743.png",
   "img-fem":null,
   "gmax":null});
