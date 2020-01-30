@@ -241,22 +241,6 @@ app.get('/pokemon/thievul', function(req, res){
   "gmax":null});
 })
 
-app.get('/pokemon/zigzagoon', function(req, res){
-  res.json({"name":"zigzagoon",
-  "types":["normal"],
-  "img":"https://www.serebii.net/swordshield/pokemon/263.png",
-  "img-fem": null,
-  "gmax":null});
-})
-
-app.get('/pokemon/linoone', function(req, res){
-  res.json({"name":"linoone",
-  "types":["normal"],
-  "img":"https://www.serebii.net/swordshield/pokemon/264.png",
-  "img-fem": null,
-  "gmax":null});
-})
-
 app.get('/pokemon/zigzagoon/galar', function(req, res){
   res.json({"name":"zigzagoon",
   "types":["dark", "normal"],
@@ -265,10 +249,26 @@ app.get('/pokemon/zigzagoon/galar', function(req, res){
   "gmax":null});
 })
 
+app.get('/pokemon/zigzagoon', function(req, res){
+  res.json({"name":"zigzagoon",
+  "types":["normal"],
+  "img":"https://www.serebii.net/swordshield/pokemon/263.png",
+  "img-fem": null,
+  "gmax":null});
+})
+
 app.get('/pokemon/linoone/galar', function(req, res){
   res.json({"name":"linoone",
   "types":["dark", "normal"],
   "img":"https://www.serebii.net/swordshield/pokemon/264-g.png",
+  "img-fem": null,
+  "gmax":null});
+})
+
+app.get('/pokemon/linoone', function(req, res){
+  res.json({"name":"linoone",
+  "types":["normal"],
+  "img":"https://www.serebii.net/swordshield/pokemon/264.png",
   "img-fem": null,
   "gmax":null});
 })
@@ -1464,6 +1464,104 @@ app.get('/pokemon/barraskewda', function(req, res){
   res.json({"name":"barraskewda",
   "types":["water"],
   "img":"https://www.serebii.net/swordshield/pokemon/847.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/meowth/galar', function(req, res){
+  res.json({"name":"meowth",
+  "types":["steel"],
+  "img":"https://www.serebii.net/swordshield/pokemon/052-g.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+
+app.get('/pokemon/meowth', function(req, res){
+  res.json({"name":"meowth",
+  "types":["normal"],
+  "img":"https://www.serebii.net/swordshield/pokemon/052.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+
+app.get('/pokemon/meowth/alola', function(req, res){
+  res.json({"name":"meowth",
+  "types":["dark"],
+  "img":"https://www.serebii.net/swordshield/pokemon/052-a.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/perrserker', function(req, res){
+  res.json({"name":"perrserker",
+  "types":["steel"],
+  "img":"https://www.serebii.net/swordshield/pokemon/863.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/persian', function(req, res){
+  res.json({"name":"persian",
+  "types":["normal"],
+  "img":"https://www.serebii.net/swordshield/pokemon/053.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/persian/alola', function(req, res){
+  res.json({"name":"persian",
+  "types":["dark"],
+  "img":"https://www.serebii.net/swordshield/pokemon/053-a.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/milcery', function(req, res){
+  res.json({"name":"milcery",
+  "types":["fairy"],
+  "img":"https://www.serebii.net/swordshield/pokemon/868.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/alcremie', function(req, res){
+  res.json({"name":"alcremie",
+  "types":["fairy"],
+  "img":"https://www.serebii.net/swordshield/pokemon/869.png",
+  "img-fem":null,
+  "gmax":"https://www.serebii.net/swordshield/pokemon/869-gi.png"});
+})
+
+app.get('/pokemon/cutiefly', function(req, res){
+  res.json({"name":"cutiefly",
+  "types":["bug", "fairy"],
+  "img":"https://www.serebii.net/swordshield/pokemon/742.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/ribombee', function(req, res){
+  res.json({"name":"ribombee",
+  "types":["bug, ""fairy"],
+  "img":"https://www.serebii.net/swordshield/pokemon/743.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/ferroseed', function(req, res){
+  res.json({"name":"ferroseed",
+  "types":["grass", "steel"],
+  "img":"https://www.serebii.net/swordshield/pokemon/597.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/ferrothorn', function(req, res){
+  res.json({"name":"ferrothorn",
+  "types":["grass", "steel"],
+  "img":"https://www.serebii.net/swordshield/pokemon/598.png",
   "img-fem":null,
   "gmax":null});
 })

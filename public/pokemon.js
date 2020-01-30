@@ -5,13 +5,13 @@
   window.addEventListener("load", init);
 
   function init() {
-    /*let radios = qsa("input[name='team']");
+    let radios = qsa("input[name='team']");
     for (let i = 0; i < radios.length; i++) {
       if(radios[i].value==="first"){
         radios[i].checked=true;
       }
       radios[i].addEventListener("change", toggleTeam);
-    }*/
+    }
 
     processPokemon();
     processItemsandMoves();
