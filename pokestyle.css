@@ -13,6 +13,7 @@ h1{
   background: linear-gradient(to bottom right, darkcyan 50%, darkmagenta 50%);
   color: yellow;
   text-align: center;
+  font-size: 48px;
 }
 
 nav {
@@ -150,7 +151,6 @@ td{
   background-color: lightpink;
   color: black;
 }
-
 
 .hidden{
   display: none;
