@@ -1699,13 +1699,133 @@ app.get('/pokemon/flapple', function(req, res){
   "types":["grass", "dragon"],
   "img":"https://www.serebii.net/swordshield/pokemon/841.png",
   "img-fem":null,
-  "gmax":null});
+  "gmax":"https://www.serebii.net/swordshield/pokemon/841-gi.png"});
 })
 
 app.get('/pokemon/appletun', function(req, res){
   res.json({"name":"appletun",
   "types":["grass", "dragon"],
   "img":"https://www.serebii.net/swordshield/pokemon/842.png",
+  "img-fem":null,
+  "gmax":"https://www.serebii.net/swordshield/pokemon/842-gi.png"});
+})
+
+app.get('/pokemon/espurr', function(req, res){
+  res.json({"name":"espurr",
+  "types":["psychic"],
+  "img":"https://www.serebii.net/swordshield/pokemon/677.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/meowstic', function(req, res){
+  res.json({"name":"meowstic",
+  "types":["psychic"],
+  "img":"https://www.serebii.net/swordshield/pokemon/678.png",
+  "img-fem":"https://www.serebii.net/swordshield/pokemon/678-f.png",
+  "gmax":null});
+})
+
+app.get('/pokemon/swirlix', function(req, res){
+  res.json({"name":"swirlix",
+  "types":["fairy"],
+  "img":"https://www.serebii.net/swordshield/pokemon/684.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/slurpuff', function(req, res){
+  res.json({"name":"slurpuff",
+  "types":["fairy"],
+  "img":"https://www.serebii.net/swordshield/pokemon/685.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/spritzee', function(req, res){
+  res.json({"name":"spritzee",
+  "types":["fairy"],
+  "img":"https://www.serebii.net/swordshield/pokemon/682.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/aromatisse', function(req, res){
+  res.json({"name":"aromatisse",
+  "types":["fairy"],
+  "img":"https://www.serebii.net/swordshield/pokemon/683.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/dewpider', function(req, res){
+  res.json({"name":"dewpider",
+  "types":["bug", "water"],
+  "img":"https://www.serebii.net/swordshield/pokemon/751.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/araquanid', function(req, res){
+  res.json({"name":"araquanid",
+  "types":["bug", "water"],
+  "img":"https://www.serebii.net/swordshield/pokemon/752.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/wynaut', function(req, res){
+  res.json({"name":"wynaut",
+  "types":["psychic"],
+  "img":"https://www.serebii.net/swordshield/pokemon/360.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/wobbuffet', function(req, res){
+  res.json({"name":"wobbufett",
+  "types":["psychic"],
+  "img":"https://www.serebii.net/swordshield/pokemon/202.png",
+  "img-fem":"https://www.serebii.net/swordshield/pokemon/202-f.png",
+  "gmax":null});
+})
+
+app.get('/pokemon/farfetchd/galar', function(req, res){
+  res.json({"name":"farfetch'd",
+  "types":["fighting"],
+  "img":"https://www.serebii.net/swordshield/pokemon/083-g.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/farfetchd', function(req, res){
+  res.json({"name":"fafetch'd",
+  "types":["normal", "flying"],
+  "img":"https://www.serebii.net/swordshield/pokemon/083.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/sirfetchd', function(req, res){
+  res.json({"name":"sirfetch'd",
+  "types":["fighting"],
+  "img":"https://www.serebii.net/swordshield/pokemon/865.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/chinchou', function(req, res){
+  res.json({"name":"chinchou",
+  "types":["water", "electric"],
+  "img":"https://www.serebii.net/swordshield/pokemon/170.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/lanturn', function(req, res){
+  res.json({"name":"lanturn",
+  "types":["water", "electric"],
+  "img":"https://www.serebii.net/swordshield/pokemon/171.png",
   "img-fem":null,
   "gmax":null});
 })
