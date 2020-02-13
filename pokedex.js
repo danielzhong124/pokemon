@@ -562,10 +562,26 @@ app.get('/pokemon/vulpix', function(req, res){
   "gmax":null});
 })
 
+app.get('/pokemon/vulpix/alola', function(req, res){
+  res.json({"name":"vulpix",
+  "types":["ice"],
+  "img":"https://www.serebii.net/swordshield/pokemon/037-a.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
 app.get('/pokemon/ninetales', function(req, res){
   res.json({"name":"ninetales",
   "types":["fire"],
   "img":"https://www.serebii.net/swordshield/pokemon/038.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
+app.get('/pokemon/ninetales/alola', function(req, res){
+  res.json({"name":"ninetales",
+  "types":["ice", "fairy"],
+  "img":"https://www.serebii.net/swordshield/pokemon/038-a.png",
   "img-fem":null,
   "gmax":null});
 })
@@ -1815,7 +1831,7 @@ app.get('/pokemon/farfetchd/galar', function(req, res){
 })
 
 app.get('/pokemon/farfetchd', function(req, res){
-  res.json({"name":"fafetch'd",
+  res.json({"name":"farfetch'd",
   "types":["normal", "flying"],
   "img":"https://www.serebii.net/swordshield/pokemon/083.png",
   "img-fem":null,
@@ -3453,6 +3469,15 @@ app.get('/pokemon/mew', function(req, res){
   "img-fem":null,
   "gmax":null});
 })
+
+app.get('/pokemon/slowpoke/galar', function(req, res){
+  res.json({"name":"slowpoke",
+  "types":["psychic"],
+  "img":"https://www.serebii.net/swordshield/pokemon/079-g.png",
+  "img-fem":null,
+  "gmax":null});
+})
+
 
 app.use(express.static("."));
 const PORT = process.env.PORT || 8000;
