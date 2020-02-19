@@ -3470,15 +3470,6 @@ app.get('/pokemon/mew', function(req, res){
   "gmax":null});
 })
 
-app.get('/pokemon/slowpoke/galar', function(req, res){
-  res.json({"name":"slowpoke",
-  "types":["psychic"],
-  "img":"https://www.serebii.net/swordshield/pokemon/079-g.png",
-  "img-fem":null,
-  "gmax":null});
-})
-
-
 app.get('/pokemon/bulbasaur', function(req, res){
   res.json({"name":"bulbasaur",
   "types":["grass", "poison"],
@@ -3781,6 +3772,14 @@ app.get('/pokemon/melmetal', function(req, res){
   "img":"https://www.serebii.net/swordshield/pokemon/809.png",
   "img-fem":null,
   "gmax":"https://www.serebii.net/swordshield/pokemon/809-gi.png"});
+})
+
+app.get('/pokemon/slowpoke/galar', function(req, res){
+  res.json({"name":"slowpoke",
+  "types":["psychic"],
+  "img":"https://www.serebii.net/swordshield/pokemon/079-g.png",
+  "img-fem":null,
+  "gmax":null});
 })
 
 app.use(express.static("."));
